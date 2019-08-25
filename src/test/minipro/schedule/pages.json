@@ -1,0 +1,46 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	    ,{
+            "path" : "pages/mine/mine",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/msg/msg",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#3cc51f",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/msg/msg",
+	        "iconPath": "static/tabImg/msg_off.png",
+	        "selectedIconPath": "static/tabImg/msg_on.png",
+	        "text": "个人聊天"
+	    }, {
+	        "pagePath": "pages/index/index",
+	       "iconPath": "static/tabImg/all_off.png",
+	       "selectedIconPath": "static/tabImg/all_on.png",
+	        "text": "全部聊天"
+	    }, {
+	        "pagePath": "pages/mine/mine",
+	       "iconPath": "static/tabImg/mine_off.png",
+	       "selectedIconPath": "static/tabImg/mine_on.png",
+	        "text": "个人中心"
+	    }]
+	}
+}
